@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/semantic.css">
+  <link rel="stylesheet" href="css/styles/layout.css">
+  <link rel="stylesheet" href="css/icon.css">
+  <title>Negociations</title>
+</head>
+<body style="width: 800px; margin: 1vw auto">
+  <h1 style="color:green"><i class="green write icon"></i> Negociações</h1>
+  <form class="form">
+    <div class="ui labeled input">
+      <div class="ui label" style="width: 7vw">Data</div>
+      <input type="date" id="data" style="width: 200px" required>
+    </div>
+    <br /><br />
+    <div class="ui labeled input">
+      <div class="ui label" style="width: 7vw">Quantidade</div>
+      <input type="text" id="quantidade" style="width: 200px" required>
+    </div>
+    <br /><br />
+    <div class="ui labeled input">
+      <div class="ui label" style="width: 7vw">Preço</div>
+      <input type="text" id="valor" style="width: 200px" required>
+    </div>
+    <br /><br />
+    <div class="ui right labeled input">
+      <button class="ui primary button"><i class="ui check icon"></i>Cadastrar</button>
+    </div>
+  </form>
+
+
+  <table class="ui table">
+    <tr>
+      <td>Data</td>
+      <td>Quantidade</td>
+      <td>Valor</td>
+      <td>Volume</td>
+    </tr>
+
+  <tbody></tbody>
+
+
+  </table>
+
+
+
+<script src="js/index.js"></script>
+</body>
+</html>
